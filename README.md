@@ -2,7 +2,7 @@
 
 Conception Engine is a toolkit being designed for Conception 1/Plus and Conception 2. Included will be an unpacker for both games that unpacks, decompresses, etc the CFSI containers, a Mod Creator that turns modded files into Mod Manager compatible mods, and a Mod Manager that has a deluxe GUI that no other Mod Manager is similar to other than Aldnoah Engine's Constellation Mod Manager and Dynasty Warriors 4 Hyper's Aquatic Mod Manager as of 2026.
 
-This new engine is meant to replace the old modding tools I made for the Conception games in the past, back then I was still new to tkinter usage and wasn't advanced with Python until later on.
+This new engine is meant to replace the old modding tools I made for the Conception games in the past, back then I was still new to tkinter usage and wasn't advanced with Python until later on. Conception Engine will be released soon.
 
 # Requirements
 
