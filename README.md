@@ -6,7 +6,7 @@ Scroll to the bottom to see GUI examples of the toolkit if you desire.
 
 This new engine is meant to replace the old modding tools I made for the Conception games in the past now that i'm more experienced with tkinter/python.
 
-If you have issues make sure to read this readme.
+If you have issues make sure to read this readme before creating an issue or contacting me on reddit/github.
 
 # Requirements
 
