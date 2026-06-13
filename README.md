@@ -2,13 +2,19 @@
 
 Conception Engine is a toolkit being designed for Conception 1/Plus and Conception 2. Included tools are an unpacker for both games that unpacks, decompresses, etc the CFSI containers (all files unpack with proper filenames and reconstructed filepaths), a Mod Creator that turns modded files into Mod Manager compatible mods, and a Mod Manager that has a deluxe GUI that no other Mod Manager is similar to other than Aldnoah Engine's Constellation Mod Manager and Dynasty Warriors 4 Hyper's Aquatic Mod Manager as of 2026.
 
+Scroll to the bottom to see GUI examples of the toolkit if you desire.
+
 This new engine is meant to replace the old modding tools I made for the Conception games in the past now that i'm more experienced with tkinter/python.
+
+If you have issues make sure to read this readme.
 
 # Requirements
 
 Python 3, Pillow (installed in admin command prompt with `python -m pip install pillow`) which is a Python imaging library, and windows (Conception Engine isn't supported for linux/mac usage).
 
-Also, DON'T you dare delete the json Conception Engine creates while unpacking the games. That json is a new approach i'm doing for taildata handling. In the past I would append taildata to the end of each unpacked file, now a more efficient method i'm doing is storing metadata/taildata in a single json for the Mod Creator/Mod Manager to rely on for Mod Package Creation and Mod applying/disabling. So the quicky? Don't delete the json unless you're running a new unpack because the Mod Creator/Mod Manager rely on that json for proper and safe Mod Creation, Mod Applying, and Mod Disabling. Avoid editing the json unless you know what you're doing.
+Also, DON'T you dare delete the json Conception Engine creates while unpacking the games. That json is a new approach i'm doing for taildata handling. In the past I would append taildata to the end of each unpacked file, now a more efficient method i'm doing is storing metadata/taildata in a single json for the Mod Creator/Mod Manager to rely on for Mod Package Creation and Mod applying/disabling. 
+
+So the quicky? Don't delete the json unless you're running a new unpack because the Mod Creator/Mod Manager rely on that json for proper and safe Mod Creation, Mod Applying, and Mod Disabling. Avoid editing the json unless you know what you're doing.
 
 # How to run
 
@@ -18,9 +24,9 @@ If Conception Engine does not launch it's usually caused by Python not being ins
 
 Back up your game files before using Conception Engine.
 
-# Controls
+# Controls for Main Hub
 
-The GUI is intentionally designed to be unique, it doesn't look like a standard GUI app. 
+The GUI for the Main Hub is intentionally designed to be unique, it doesn't look like a standard GUI app. 
 
 To move the app around you must use right click on the GUI (the vertical buttons or the title of the app).
 
@@ -29,6 +35,10 @@ To exit out of Conception Engine, click the esc button on your keyboard.
 Press F1 to toggle on/off always on top mode.
 
 Editor panels can be moved by dragging their title bars.
+
+# T and G spherical buttons
+
+T is where the modding software live while G is the Guide section for Conception Engine, all you need to do is left click the T or G spheres for whatever you're wanting to use. I suggest reading the Guide section (click the G sphere) before using the tools.
 
 # Royal Archive Mod Manager
 
