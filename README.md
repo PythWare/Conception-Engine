@@ -62,4 +62,9 @@ The unpacker will unpack all the CFSI containers for Conception 1 and 2, decompr
 
 The Mod Creator is what's used to turn modded files into Mod Manager compatible mod packages. Mod Creator will create custom mod formats I designed that includes metadata (author, version, description of mod), genre type for the mod, preview images for the mod, optional wav file included for theme/music with the mod, etc.
 
+When you select the folder that has modded files you want to turn into a mod package make sure the modded files are placed in a folder structure that matches how they were unpacked. An example is modding dungeons, lust dungeon's 1st floor is at Conception_II\dungeon\100
+so if you wanted to mod the first floor you'd mod the files, place them wherever you want to store your mods (let's use the example "modded" folder), create the "dungeon" folder, create the "100" folder within the dungeon directory, and then place the modded files within the 100 folder. After that, you just select the base directory for modded files which in this case would be the "modded" folder.
+
+So to summarize with mod creation, make sure you retain the folder hierarchy (just compare to the unpacked version to know the folders to create) when selecting the folder with modded files. 
+
 <img width="1143" height="756" alt="con6" src="https://github.com/user-attachments/assets/a0904f77-1806-494f-b405-b642c172fed0" />
